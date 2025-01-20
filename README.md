@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/flCs5hu.png" alt="Microsoft Active Directory Logo"/>
+<img src="https://i.imgur.com/bzkYTxJ.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
 <h1> SOC138 - Detected Suspicious Xls File - EventID: 77 </h1>
@@ -8,7 +8,7 @@ This is a walkthrough of the resolution of this ticket<br />
 <h2>Tutorial Walkthrough</h2>
 
 <p>
- In the investigation channel lets create the case by clicking on the icon as shown bellow. 
+ In the investigation channel let's create the case by clicking on the icon as shown bellow. 
 </p>
 <p>
 <img src="https://i.imgur.com/qqhrrpy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -79,4 +79,27 @@ This is a walkthrough of the resolution of this ticket<br />
 </p>
 <br />
 
+<p>
+ Scroll down to the Network Analysis section and we see the Cs address 177.53.143.89 and its location is in Brazil. Answer the playbook accordingly.
+</p>
+<p>
+<img src="https://i.imgur.com/etTal4F.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
+<h2>Check If Someone Requested the C2</h2>
+<p>
+ To do this we have to go to the Log management page, make sure we switch from Pro to Basic, and paste in the malicious C2 address. We see a familiar IP address which is Sofia (the PC we are investigating) and we see a new IP address 172.16.17.24 communicating with the C2 address. This answers the playbook question.
+</p>
+<p>
+<img src="https://i.imgur.com/F8bDXlY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<h2>Containment</h2>
+<p>
+ To contain this other infected PC we go to "Endpoint Security" page and search for the other IP address communicating with the C2 and we find that Nolan has been compromised and we contain the PC. Make sure to write your report and finish the playbook.
+</p>
+<p>
+<img src="https://i.imgur.com/WFGdG3W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/6BbJU3M.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<h2>THE END</h2>
