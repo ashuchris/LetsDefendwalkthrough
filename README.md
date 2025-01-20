@@ -7,7 +7,7 @@
 <h2>Tutorial Walkthrough</h2>
 
 <p>
- In the investigation channel let's create the case by clicking on the icon as shown bellow. 
+ In the investigation channel let's create the case by clicking on the icon as shown below. 
 </p>
 <p>
 <img src="https://i.imgur.com/qqhrrpy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
