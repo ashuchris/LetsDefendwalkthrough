@@ -3,7 +3,6 @@
 </p>
 
 <h1> SOC138 - Detected Suspicious Xls File - EventID: 77 </h1>
-This is a walkthrough of the resolution of this ticket<br />
 
 <h2>Tutorial Walkthrough</h2>
 
